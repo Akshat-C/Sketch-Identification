@@ -1,0 +1,33 @@
+.bg-info {
+    animation-name: div_shadow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes div_shadow {
+    from{box-shadow: 2px 2px 30px orange;}
+    to{box-shadow: 2px 2px 30px yellow;}
+}
+
+#sketch_images {
+    width: 100%;
+}
+
+canvas {
+    background-color: white;
+    animation-name: can_shadow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    margin-top: 120px;
+}
+
+@keyframes can_shadow {
+    from{box-shadow: 1px 1px 30px yellow;}
+    to{box-shadow: 1px 1px 30px red;}
+}
+
+body {
+    background-image: url("Doodle.jpg");
+    background-size: cover;
+    background-position:center;
+}
